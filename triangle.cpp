@@ -33,6 +33,8 @@ float findTrianglePerimeter(float side1, float side2, float side3) {
 */
 float findTriangleArea(float base, float height) {
     //TODO STUDENT A
+    float sum = base * height;
+    return sum;
 }
 
 /**********************************************
