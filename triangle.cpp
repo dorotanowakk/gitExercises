@@ -10,7 +10,7 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
-    float sum = 180 - (ang1 - ang2);
+    float sum = 180 - ang1 - ang2;
     return sum;
 }
 
@@ -75,6 +75,10 @@ int main()
 {
     //TODO STUDENT A and STUDENT B
     //check written UI methods in second part of exercise
+
+    float ang1 = 30, ang2 = 10;
+    float sum = findThirdAngle(ang1, ang2);
+    cout << sum;
 
     return 0;
 }
