@@ -80,9 +80,13 @@ int main()
     //TODO STUDENT A and STUDENT B
     //check written UI methods in second part of exercise
 
-    float ang1 = 30, ang2 = 10;
-    float sum = findThirdAngle(ang1, ang2);
-    cout << sum;
+    // float ang1 = 30, ang2 = 10;
+    // float sum = findThirdAngle(ang1, ang2);
+    // cout <<"The third angle is: " << sum << "\n";
+
+    // float triangleArea = findTriangleArea(ang1, ang2);
+    // cout << "The area of triangle is: " << triangleArea << "\n";
+
 
     return 0;
 }
