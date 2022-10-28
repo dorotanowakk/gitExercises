@@ -1,4 +1,5 @@
 #include<iostream>
+#include <cmath>
 using namespace std;
 
 /**********************************************
@@ -9,6 +10,8 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
+    float sum = 180 - (ang1 - ang2);
+    return sum;
 }
 
 /**********************************************
@@ -44,7 +47,7 @@ float findTriangleArea(float side1, float side2, float side3) {
 * exceeds 180, it shows error message,
 * otherwise it uses findThirdAngle and shows result
 */
-void findThirdAngleUI() {
+void findThirdAngleUI(float ang1, float ang2) {
     //TODO STUDENT A
 }
 
@@ -52,7 +55,7 @@ void findThirdAngleUI() {
 * Method gets triangle's base and height from user,
 * and uses findTriangleArea and shows result
 */
-void findTriangleAreaUI() {
+void findTriangleAreaUI(float base, float height) {
     //TODO STUDENT B
 }
 
@@ -63,7 +66,7 @@ void findTriangleAreaUI() {
 * you can check rules (the same as in findTrianglePerimeter)
 * and show error message if sizes don't meet conditions (additional step)
 */
-void findTrianglePerimeterAndAreaUI() {
+void findTrianglePerimeterAndAreaUI(float side1,float side2) {
     //TODO STUDENT A
 }
 
