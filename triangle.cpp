@@ -23,6 +23,8 @@ float findThirdAngle(float ang1, float ang2) {
 */
 float findTrianglePerimeter(float side1, float side2, float side3) {
     //TODO STUDENT B
+    float sum = side1 + side2 + side3;
+    return sum;
 }
 
 /**********************************************
