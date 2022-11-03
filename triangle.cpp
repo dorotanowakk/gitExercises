@@ -68,10 +68,9 @@ void findTriangleAreaUI(float base, float height) {
     cin >> base;
     cout << "Enter the height of the triangle";
     cin >> height;
-
     // Calculate area of the triangle
     float area = ((base * height) / 2);
-    return area;
+    return;
 }
 
 /**********************************************
