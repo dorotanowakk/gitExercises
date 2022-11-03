@@ -64,6 +64,14 @@ void findThirdAngleUI(float ang1, float ang2) {
 */
 void findTriangleAreaUI(float base, float height) {
     //TODO STUDENT B
+    cout << "Enter the base of the triangle";
+    cin >> base;
+    cout << "Enter the height of the triangle";
+    cin >> height;
+
+    // Calculate area of the triangle
+    float area = ((base * height) / 2);
+    return area;
 }
 
 /**********************************************
