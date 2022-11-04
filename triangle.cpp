@@ -56,6 +56,16 @@ float findTriangleArea(float side1, float side2, float side3) {
 */
 void findThirdAngleUI(float ang1, float ang2) {
     //TODO STUDENT A
+    cout << "Enter the first angle: " << ang1; cin >> ang1;
+    cout << "Enter the second angle: " << ang2; cin >> ang2;
+    if (ang1 + ang2 > 180) {
+        cout << "The sum of angles is more than 180";
+    }
+    else {
+        float sum = findThirdAngle(ang1, ang2);
+        cout << "The sum of angles is " << sum;
+    }
+    
 }
 
 /**********************************************
@@ -80,8 +90,18 @@ void findTriangleAreaUI(float base, float height) {
 * you can check rules (the same as in findTrianglePerimeter)
 * and show error message if sizes don't meet conditions (additional step)
 */
-void findTrianglePerimeterAndAreaUI(float side1,float side2) {
+void findTrianglePerimeterAndAreaUI(float side1,float side2, float side3) {
     //TODO STUDENT A
+    cout << "Enter the first angle: " << side1; cin >> side1;
+    cout << "Enter the second angle: " << side2; cin >> side2;
+    cout << "Enter the third angle: " << side3; cin >> side3;
+
+    float trianglePerimeter = findTrianglePerimeter(side1, side2, side3);
+    float triangleArea = findTriangleArea(side1, side2, side3);
+
+    cout << "The triangle Perimeter is: " << trianglePerimeter;
+    cout << "The triangle Area is: " << triangleArea;
+
 }
 
  
