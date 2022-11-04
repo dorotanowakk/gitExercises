@@ -9,7 +9,7 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
-    // The fuction here is float
+    // The function here is a float
 }
 
 /**********************************************
@@ -49,7 +49,9 @@ float findTriangleArea(float side1, float side2, float side3) {
 */
 void findThirdAngleUI() {
     //TODO STUDENT A
-}
+    // if angle is > 180 show error message = false
+    
+    }
 
 /**********************************************
 * Method gets triangle's base and height from user,
@@ -68,6 +70,7 @@ void findTriangleAreaUI() {
 */
 void findTrianglePerimeterAndAreaUI() {
     //TODO STUDENT A
+    
 }
 
  
