@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 /**********************************************
@@ -9,6 +10,8 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
+    float sum = 180 - ang1 - ang2;
+    return sum;
 }
 
 /**********************************************
@@ -20,6 +23,8 @@ float findThirdAngle(float ang1, float ang2) {
 */
 float findTrianglePerimeter(float side1, float side2, float side3) {
     //TODO STUDENT B
+    float sum = side1 + side2 + side3;
+    return sum;
 }
 
 /**********************************************
@@ -28,6 +33,8 @@ float findTrianglePerimeter(float side1, float side2, float side3) {
 */
 float findTriangleArea(float base, float height) {
     //TODO STUDENT A
+    float sum = base * height;
+    return sum;
 }
 
 /**********************************************
@@ -37,6 +44,17 @@ float findTriangleArea(float base, float height) {
 */
 float findTriangleArea(float side1, float side2, float side3) {
     //TODO STUDENT B
+    float area;
+    cout << "Enter size of each sides of triangle" << endl;
+    cout << "Enter size of side1 =";
+    cin >> side1;
+    cout << "Enter size of side2";
+    cin >> side2;
+    cout << "Enter size of side3";
+    cin >> side3;
+    area = sqrt(s*(s-side1)*(s-side2)*(s-side3));
+    cout << "Area of Triangle= " << area << endl;
+    return area;
 }
 
 /**********************************************
@@ -46,6 +64,18 @@ float findTriangleArea(float side1, float side2, float side3) {
 */
 void findThirdAngleUI() {
     //TODO STUDENT A
+    void findThirdAngleUI(float ang1, float ang2) {
+    cout << "Enter the first angle: " << ang1; cin >> ang1;
+    cout << "Enter the second angle: " << ang2; cin >> ang2;
+    if (ang1 + ang2 > 180) {
+        cout << "The sum of angles is more than 180";
+    }
+    else {
+        float sum = findThirdAngle(ang1, ang2);
+        cout << "The sum of angles is " << sum;
+    }
+    
+}
 }
 
 /**********************************************
@@ -54,6 +84,7 @@ void findThirdAngleUI() {
 */
 void findTriangleAreaUI() {
     //TODO STUDENT B
+    
 }
 
 /**********************************************
@@ -65,6 +96,15 @@ void findTriangleAreaUI() {
 */
 void findTrianglePerimeterAndAreaUI() {
     //TODO STUDENT A
+    area () { double a = ((s1 * s2) * 1 / 2);
+    cout << "The area of the triangle:";
+    cout << a << endl; }
+
+    perimeter () {
+        double b = (s1 + s2 + s3);
+        cout << "The perimeter of the triangle is:";
+        cout << b << endl;
+    }
 }
 
  
