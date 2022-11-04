@@ -9,6 +9,7 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
+    // The fuction here is float
 }
 
 /**********************************************
