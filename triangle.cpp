@@ -9,6 +9,8 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
+    return 180 - ang1 - ang2;
+
 }
 
 /**********************************************
