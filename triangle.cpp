@@ -9,7 +9,10 @@ using namespace std;
 */
 float findThirdAngle(float ang1, float ang2) {
     //TODO STUDENT A
+    float res = 180 - ang1 - ang2;
+    return res;
 }
+
 
 /**********************************************
 * Method to calculate perimeter of triangle
