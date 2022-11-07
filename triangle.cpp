@@ -75,6 +75,6 @@ int main()
 {
     //TODO STUDENT A and STUDENT B
     //check written UI methods in second part of exercise
-
+    cout << findThirdAngle(34,45);
     return 0;
 }
