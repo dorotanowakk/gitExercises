@@ -50,6 +50,10 @@ float findTriangleArea(float base, float height) {
 */
 float findTriangleArea(float side1, float side2, float side3) {
     //TODO STUDENT B
+    float area, s;
+    s = (a +b + c) /2
+    area = sqr(s*(s-side1) (s-side2) (s-side3));
+    return area;
 }
 
 /**********************************************
@@ -65,8 +69,10 @@ void findThirdAngleUI() {
 * Method gets triangle's base and height from user,
 * and uses findTriangleArea and shows result
 */
-void findTriangleAreaUI() {
+void findTriangleAreaUI(float h, float b) {
     //TODO STUDENT B
+    area = b /2 * h;
+    return area;
 }
 
 /**********************************************
@@ -85,10 +91,26 @@ int main()
 {
     //TODO STUDENT A and STUDENT B
     //check written UI methods in second part of exercise
-    float s1, s2,s3;
+    
+    float s1, s2, s3, area, perim;
     s1 = 25;
     s2 = 50;
-    s3 = 70;
-    findTrianglePerimeter(s1,s2,s3);
+    s3 = 70; 
+
+    //Evaluate findTrianglePerimeter
+    perim = findTrianglePerimeter(s1,s2,s3);
+    cout << ("Perimeter of Triangle: " << perim);
+
+    //Evaluate findTriangleAreaUI
+    cout << ("Enter triangle base > ");
+    cin >> t_base;
+    cout << ("Enter triangle height");
+    cin >> t_height;
+    area = findTriangleAreaUI(t_base, t_height);
+    cout << ("Triangle Area is: " << area);
+
+    //Evaluate findTriangleArea
+    area = findTriangleArea(side1, side2,side3);
+    cout << ("Area of Triangle is: " << area);
     return 0;
 }
