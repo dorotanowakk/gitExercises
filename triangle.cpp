@@ -25,13 +25,14 @@ float findTrianglePerimeter(float side1, float side2, float side3) {
     if(side1 < side2 + side3 and side2 < side1 + side3 and side3 < side1 + side2)
     {
         float perim = side1 + side2 + side3;
-        cout >> ("Perimeter is: perim);
+        cout << ("Perimeter is: " >> perim);
+        return perim;
         }
     else
         {
-        cout >> ("Error sides rule broken")
+        cout << ("Error sides rule broken");
         }
-    }
+    
 }
 
 /**********************************************
@@ -88,6 +89,6 @@ int main()
     s1 = 25;
     s2 = 50;
     s3 = 70;
-    findTrianglePerimeter(s1,s2,s3)
+    findTrianglePerimeter(s1,s2,s3);
     return 0;
 }
