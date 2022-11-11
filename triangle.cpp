@@ -43,11 +43,11 @@ float findTrianglePerimeter(float side1, float side2, float side3) {
         {
         cout >> ("Error sides rule broken");
         }
-        return perim;
+        return perim; */
     }
-*/
 
-float findTriangleArea(float base, float height) {
+
+float findTriangleArea(float base, float height){
    float AreaSum = 0.5 * base * height;
    return AreaSum; 
 }
@@ -61,10 +61,10 @@ float findTriangleArea(float base, float height) {
 * (you need to use cmath library)
 */
 
-float findTriangleArea(float side1, float side2, float side3) {
+float findTriangleAreaH(float side1, float side2, float side3){
     //TODO STUDENT B
     float area, s;
-    s = (side1 + side2 + side3) /2
+    s = (side1 + side2 + side3) /2;
     area = sqr(s*(s-side1* s-side2 * s-side3));
     return area;
 }
@@ -74,7 +74,8 @@ float findTriangleArea(float side1, float side2, float side3) {
 * exceeds 180, it shows error message,
 * otherwise it uses findThirdAngle and shows result
 */
-void findThirdAngleUI() {
+void findThirdAngleUI()
+{
     //TODO STUDENT A
 }
 
@@ -84,8 +85,8 @@ void findThirdAngleUI() {
 */
 void findTriangleAreaUI(float h, float b) {
     //TODO STUDENT B
-    area = (b /2) * h;
-    return area;
+   float area = (b /2) * h;
+   cout <<"Area of triangle: " << area;
 }
 
 /**********************************************
@@ -117,8 +118,8 @@ int main()
     cin >> t_base;
     cout << ("Enter triangle height");
     cin >> t_height;
-    area = findTriangleAreaUI(t_base, t_height);
-    cout << ("Triangle Area is: " << area);
+    findTriangleAreaUI(t_base, t_height);
+    
 
     //Evaluate findTriangleArea Heron's formular - Student B
     float side1, side2, side3, area;
@@ -126,6 +127,7 @@ int main()
     cout << ("Area of Triangle is: " << area);
 
     //Evaluate findTriangleArea - Student A
+    
     float base = 20;
     float height = 30;
 
