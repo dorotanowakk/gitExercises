@@ -2,6 +2,7 @@
 using namespace std;
 
 /**********************************************
+<<<<<<< HEAD
  * Method to calculate third angle of triangle
  * it returns in degree: 180 - ang1 - ang2
  *
@@ -11,6 +12,16 @@ float findThirdAngle(float ang1, float ang2)
 {
     // TODO STUDENT A
     //  The fuction here is float
+=======
+* Method to calculate third angle of triangle
+* it returns in degree: 180 - ang1 - ang2
+*
+* you can prevent method from returning negative value (additional step)
+*/
+float findThirdAngle(float ang1, float ang2) {
+    //TODO STUDENT A
+    // The function here is a float
+>>>>>>> 794a8be6718aaab4a8bd4de5e44e0c6dfbdbcc4f
 }
 
 /**********************************************
@@ -50,6 +61,7 @@ float findTriangleArea(float side1, float side2, float side3)
 }
 
 /**********************************************
+<<<<<<< HEAD
  * Method gets 2 angles from user, if sum of angles
  * exceeds 180, it shows error message,
  * otherwise it uses findThirdAngle and shows result
@@ -58,6 +70,17 @@ void findThirdAngleUI()
 {
     // TODO STUDENT A
 }
+=======
+* Method gets 2 angles from user, if sum of angles
+* exceeds 180, it shows error message,
+* otherwise it uses findThirdAngle and shows result
+*/
+void findThirdAngleUI() {
+    //TODO STUDENT A
+    // if angle is > 180 show error message = false
+    
+    }
+>>>>>>> 794a8be6718aaab4a8bd4de5e44e0c6dfbdbcc4f
 
 /**********************************************
  * Method gets triangle's base and height from user,
@@ -70,6 +93,7 @@ void findTriangleAreaUI()
 }
 
 /**********************************************
+<<<<<<< HEAD
  * Method gets triangle's sides from user,
  * and uses findTrianglePerimeter and findTriangleArea and shows result
  *
@@ -79,6 +103,17 @@ void findTriangleAreaUI()
 void findTrianglePerimeterAndAreaUI()
 {
     // TODO STUDENT A
+=======
+* Method gets triangle's sides from user,
+* and uses findTrianglePerimeter and findTriangleArea and shows result
+*
+* you can check rules (the same as in findTrianglePerimeter)
+* and show error message if sizes don't meet conditions (additional step)
+*/
+void findTrianglePerimeterAndAreaUI() {
+    //TODO STUDENT A
+    // Final stage of this assigment.********* 
+>>>>>>> 794a8be6718aaab4a8bd4de5e44e0c6dfbdbcc4f
 }
 
 int main()
