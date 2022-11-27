@@ -81,6 +81,7 @@ void findTriangleAreaUI() {
 */
 void findTrianglePerimeterAndAreaUI() {
     //TODO STUDENT A
+    //michael and za 
 }
 
  
