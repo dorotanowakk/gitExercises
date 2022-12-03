@@ -75,6 +75,9 @@ int main()
 {
     //TODO STUDENT A and STUDENT B
     //check written UI methods in second part of exercise
+    float tAngle = findThirdAngle(40, 30);
+     
+    cout<< "Third angle = " << tAngle;
 
     return 0;
 }
